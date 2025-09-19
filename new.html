@@ -23,7 +23,13 @@
 
 </head>
 <body>
-  <h1>กำลังพาไป Lazada...</h1>
-  <p>ถ้าไม่เด้งอัตโนมัติ <a href="https://s.lazada.co.th/s.APmoD?cc">คลิกที่นี่</a></p>
+  <body>
+  <p>กำลังพาไป Lazada ...</p>
+  <script>
+    setTimeout(function(){
+      window.location.href = "https://s.lazada.co.th/s.APmoD?cc";
+    }, 1500); // หน่วง 1.5 วินาทีเพื่อให้ FB Crawler อ่าน OG Tag
+  </script>
+</body>
 </body>
 </html>
